@@ -1,0 +1,11 @@
+[
+{"id":1,"name":"Classic Sourdough","category":"bread","price":55,"image":"images/sourdough-loaf.jpg","alt":"Golden crusty classic sourdough loaf","desc":"Slow-fermented white sourdough with a crisp crust.","lead":0},
+{"id":2,"name":"Seeded Sourdough","category":"bread","price":60,"image":"images/seeded-loaf.jpg","alt":"Seeded sourdough loaf on a wooden board","desc":"Packed with sunflower, pumpkin and flax seeds.","lead":0},
+{"id":3,"name":"Rye Loaf","category":"bread","price":65,"image":"images/rye-loaf.jpg","alt":"Dark rye sourdough loaf","desc":"Dense, earthy rye loaf that keeps for days.","lead":1},
+{"id":4,"name":"Butter Croissant","category":"pastries","price":25,"image":"images/butter-croissant.jpg","alt":"Flaky butter croissant","desc":"Laminated by hand with real butter.","lead":0},
+{"id":5,"name":"Cinnamon Roll","category":"pastries","price":30,"image":"images/cinnamon-roll.jpg","alt":"Cinnamon roll with icing","desc":"Soft, sticky and finished with cream-cheese icing.","lead":0},
+{"id":6,"name":"Chicken Pie","category":"pastries","price":35,"image":"images/chicken-pie.jpg","alt":"Golden chicken pie","desc":"Flaky pastry filled with creamy chicken and veg.","lead":0},
+{"id":7,"name":"Chocolate Celebration Cake","category":"cakes","price":350,"image":"images/chocolate-celebration-cake.jpg","alt":"Chocolate drip celebration cake","desc":"Rich chocolate sponge, serves 10-12. Order 48 hours ahead.","lead":2},
+{"id":8,"name":"Wedding Cake (per tier)","category":"cakes","price":650,"image":"images/wedding-cake.jpg","alt":"Tiered wedding cake with flowers","desc":"Custom flavours and decoration. Order 7 days ahead.","lead":7},
+{"id":9,"name":"Cupcake Box (12)","category":"cakes","price":120,"image":"images/cupcake-box.jpg","alt":"Box of pastel iced cupcakes","desc":"A dozen cupcakes in flavours of your choice.","lead":2}
+]

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Us | Ntsiki's Artisan Bakehouse Johannesburg</title>
+<meta name="description" content="Visit our Johannesburg bakery, call us, or send a message. Find our address, trading hours and an interactive map.">
+<meta name="keywords" content="bakery address Johannesburg, contact bakery">
+<meta name="author" content="Ntsiki's Artisan Bakehouse">
+<meta property="og:title" content="Contact Us | Ntsiki's Artisan Bakehouse Johannesburg">
+<meta property="og:description" content="Visit our Johannesburg bakery, call us, or send a message. Find our address, trading hours and an interactive map.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero-sourdough-bread.jpg">
+<link rel="canonical" href="https://maybesennie.github.io/NtsikisBakery/contact.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Ntsiki's Artisan Bakehouse","address":{"@type":"PostalAddress","streetAddress":"123 Baker Street","addressLocality":"Johannesburg","postalCode":"2000","addressCountry":"ZA"},"openingHours":["Mo-Fr 07:00-17:00","Sa 08:00-13:00"],"servesCuisine":"Bakery"}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+<a class="brand" href="index.html">Ntsiki's Artisan Bakehouse</a>
+<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+<nav aria-label="Main navigation"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html">Enquiry</a></li><li><a href="contact.html" class="active" aria-current="page">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="container"><h1 class="center">Contact Us</h1><p class="center">Visit the shop, give us a call, or send a message below.</p>
+<div class="two-col"><div><h2>Shopfront</h2><p>123 Baker Street, Johannesburg, 2000</p><p>Mon-Fri: 07:00-17:00<br>Sat: 08:00-13:00</p></div>
+<div id="map" role="region" aria-label="Map showing bakery location in Johannesburg"></div></div></section>
+<section class="container narrow"><h2 class="center">Send us a message</h2>
+<form id="contact-form" action="mailto:hello@ntsikisbakehouse.co.za" method="post" enctype="text/plain" novalidate>
+<div class="field"><label for="name">Full Name</label><input type="text" id="name" name="name" required minlength="2" autocomplete="name"><span class="error" id="name-err" aria-live="polite"></span></div>
+<div class="field"><label for="email">Email Address</label><input type="email" id="email" name="email" required autocomplete="email"><span class="error" id="email-err" aria-live="polite"></span></div>
+<div class="field"><label for="phone">Phone Number (optional)</label><input type="tel" id="phone" name="phone" autocomplete="tel"><span class="error" id="phone-err" aria-live="polite"></span></div>
+<div class="field"><label for="type">Type of Message</label><select id="type" name="type" required><option value="">Select...</option><option>General question</option><option>Feedback</option><option>Catering / bulk order</option><option>Complaint</option></select><span class="error" id="type-err"></span></div>
+<div class="field"><label for="message">Message</label><textarea id="message" name="message" rows="5" required minlength="10" maxlength="1000"></textarea><span class="error" id="message-err"></span></div>
+<button class="btn" type="submit">Prepare Email</button>
+</form>
+<div id="contact-result" class="result" aria-live="polite" hidden></div></section>
+</main>
+<footer class="site-footer">
+<p>123 Baker Street, Johannesburg, 2000 &middot; Mon-Fri 07:00-17:00 &middot; Sat 08:00-13:00</p>
+<p><a href="contact.html">Contact us</a> &middot; <a href="enquiry.html">Order enquiry</a></p>
+<p>&copy; 2026 Ntsiki's Artisan Bakehouse</p>
+</footer>
+<script src="js/main.js"></script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script><script src="js/contact.js"></script>
+</body>
+</html>

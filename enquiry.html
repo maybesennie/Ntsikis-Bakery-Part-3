@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Enquiries & Custom Cake Orders | Ntsiki's Bakehouse</title>
+<meta name="description" content="Request a quote for custom cakes, bread or catering. Get an instant price estimate and availability from Ntsiki's Artisan Bakehouse.">
+<meta name="keywords" content="custom cake order, catering enquiry, bakery quote">
+<meta name="author" content="Ntsiki's Artisan Bakehouse">
+<meta property="og:title" content="Enquiries & Custom Cake Orders | Ntsiki's Bakehouse">
+<meta property="og:description" content="Request a quote for custom cakes, bread or catering. Get an instant price estimate and availability from Ntsiki's Artisan Bakehouse.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="images/hero-sourdough-bread.jpg">
+<link rel="canonical" href="https://maybesennie.github.io/NtsikisBakery/enquiry.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Bakery","name":"Ntsiki's Artisan Bakehouse","address":{"@type":"PostalAddress","streetAddress":"123 Baker Street","addressLocality":"Johannesburg","postalCode":"2000","addressCountry":"ZA"},"openingHours":["Mo-Fr 07:00-17:00","Sa 08:00-13:00"],"servesCuisine":"Bakery"}
+</script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to main content</a>
+<header class="site-header">
+<a class="brand" href="index.html">Ntsiki's Artisan Bakehouse</a>
+<button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
+<nav aria-label="Main navigation"><ul class="nav-list"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="products.html">Products</a></li><li><a href="enquiry.html" class="active" aria-current="page">Enquiry</a></li><li><a href="contact.html">Contact</a></li></ul></nav>
+</header>
+<main id="main">
+<section class="container narrow"><h1 class="center">Enquiries &amp; Custom Orders</h1>
+<p class="center">Planning a celebration? Tell us what you need and we'll give you an instant estimate.</p>
+<form id="enquiry-form" action="https://jsonplaceholder.typicode.com/posts" method="post" novalidate>
+<div class="field"><label for="name">Full Name</label><input type="text" id="name" name="name" required minlength="2" autocomplete="name"><span class="error" id="name-err" aria-live="polite"></span></div>
+<div class="field"><label for="email">Email Address</label><input type="email" id="email" name="email" required autocomplete="email"><span class="error" id="email-err" aria-live="polite"></span></div>
+<div class="field"><label for="phone">Phone Number (e.g. 082 123 4567)</label><input type="tel" id="phone" name="phone" required autocomplete="tel"><span class="error" id="phone-err" aria-live="polite"></span></div>
+<div class="field"><label for="product">Product</label><select id="product" name="product" required><option value="">Select a product...</option></select><span class="error" id="product-err"></span></div>
+<div class="field"><label for="qty">Quantity</label><input type="number" id="qty" name="qty" required min="1" max="100" value="1"><span class="error" id="qty-err" aria-live="polite"></span></div>
+<div class="field"><label for="date">Date Needed</label><input type="date" id="date" name="date" required><span class="error" id="date-err" aria-live="polite"></span></div>
+<div class="field"><label for="notes">Tell us more</label><textarea id="notes" name="notes" rows="4" maxlength="500" placeholder="Flavour, size, number of guests..."></textarea><span class="error" id="notes-err"></span></div>
+<button class="btn" type="submit">Get My Estimate</button>
+</form>
+<div id="enquiry-result" class="result" aria-live="polite" hidden></div></section>
+</main>
+<footer class="site-footer">
+<p>123 Baker Street, Johannesburg, 2000 &middot; Mon-Fri 07:00-17:00 &middot; Sat 08:00-13:00</p>
+<p><a href="contact.html">Contact us</a> &middot; <a href="enquiry.html">Order enquiry</a></p>
+<p>&copy; 2026 Ntsiki's Artisan Bakehouse</p>
+</footer>
+<script src="js/main.js"></script>
+<script src="js/enquiry.js"></script>
+</body>
+</html>
