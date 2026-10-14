@@ -1,7 +1,7 @@
 # Ntsiki's Artisan Bakehouse – WEDE5020 PoE
 
-**Live site:** https://maybesennie.github.io/NtsikisBakery/
-**Repository:** https://github.com/maybesennie/NtsikisBakery
+**Live site:** [https://maybesennie.github.io/NtsikisBakery/](https://github.com/maybesennie/Ntsikis-Bakery-Part-3)
+**Repository:** [https://github.com/maybesennie/NtsikisBakery](https://github.com/maybesennie/Ntsikis-Bakery-Part-3)
 
 ## Project Overview
 A five-page responsive website for a fictional Johannesburg bakery (sourdough, custom cakes, pastries). Built with HTML5, CSS3 and vanilla JavaScript.
